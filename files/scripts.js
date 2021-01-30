@@ -34,7 +34,7 @@
     var o = n(1),
         c = (n.n(o), n(2));
     n.n(c)
-}, function(e, t) {}, function(e, t) {
+}, function() {}, function() {
     document.addEventListener("DOMContentLoaded", function() {
         n(), o()
     });
@@ -60,7 +60,7 @@
                 })
             })
         };
-    window.inquiryChangedEvent = function(e) {
+    window.inquiryChangedEvent = function() {
         var t = document.querySelector("[data-inquiry-details]"),
             n = document.querySelector(".inquiry-details__wrapper");
         t.clientHeight ? (t.style.height = 0, t.style.opacity = .3) : (t.style.height = n.clientHeight + "px", t.style.opacity = 1)
